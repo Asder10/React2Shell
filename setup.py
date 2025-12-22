@@ -1,12 +1,16 @@
 from setuptools import setup, find_packages
 
+# To handle encoding issues, especially on Windows
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
 setup(
     name="react2shell",
     version="1.0.0",
     author="@BlackTechX011",
     author_email="",
     description="Advanced CVE-2025-55182 Exploitation Framework",
-    long_description=open("README.md").read(),
+    long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/BlackTechX011/React2Shell",
     packages=find_packages(),
