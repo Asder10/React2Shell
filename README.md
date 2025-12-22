@@ -135,3 +135,13 @@ For a complete list of commands, advanced options, and detailed usage examples, 
 -   This framework was developed and packaged by **@BlackTechX011**.
 -   The core vulnerability research and initial proof-of-concept were conducted by **[@maple3142](https://x.com/maple3142)**. Their work was instrumental in understanding this vulnerability.
 
+## Star History
+
+<div align="center">
+<a href="https://www.star-history.com/#BlackTechX011/React2Shell&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=BlackTechX011/React2Shell&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=BlackTechX011/React2Shell&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=BlackTechX011/React2Shell&type=date&legend=top-left" />
+ </picture>
+</a></div>
